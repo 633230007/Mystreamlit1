@@ -50,4 +50,4 @@ st.subheader('My sub')
 dt=pd.read_csv('./data/iris.csv')
 st.write(dt.head(10))
 
-st.button("Showchart")
+st.button("showChart")
