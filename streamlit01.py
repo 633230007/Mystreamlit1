@@ -47,7 +47,7 @@ st.header('My header')
 st.subheader('My sub')
 
 #import pandas as pd
-dt=pd.read_csv('./data/iris.csvb')
-st.write(dt.head(100))
+dt=pd.read_csv('./data/iris.csv')
+st.write(dt.head(10))
 
 st.button("Showchart")
