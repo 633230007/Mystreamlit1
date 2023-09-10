@@ -10,7 +10,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header("TKKiT0007")
-    st.image("pic\iris1.jpg")
+    st.image("./pic/iris1.jpg")
 
 with col2:
     st.header("Versicolor")
