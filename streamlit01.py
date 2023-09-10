@@ -13,7 +13,11 @@ with col1:
     st.image("./pic/iris1.jpg")
 
 #with col2:
-  #  st.header("Versicolor")
+    st.header("TKKiT633230007")
+    st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
+    st.texe("Versicolor")
+    st.write("Versicolor")
+    st.markdown("Versicolor")
   #  st.image("")
 
 st.header('My header')
