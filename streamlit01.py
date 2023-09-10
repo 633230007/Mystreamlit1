@@ -45,3 +45,9 @@ with col3v:
 
 st.header('My header')
 st.subheader('My sub')
+
+#import pandas as pd
+dt=pd.read_csv('./data/iris.csvb')
+st.write(dt.head(100))
+
+st.button("Showchart")
