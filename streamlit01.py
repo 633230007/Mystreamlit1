@@ -12,9 +12,9 @@ with col1:
     st.header("TKKiT0007")
     st.image("./pic/iris1.jpg")
 
-with col2:
-    st.header("Versicolor")
-    st.image("")
+#with col2:
+  #  st.header("Versicolor")
+  #  st.image("")
 
 st.header('My header')
 st.subheader('My sub')
