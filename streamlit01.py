@@ -15,7 +15,7 @@ with col1:
 #with col2:
     st.header("TKKiT633230007")
     st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
-    st.texe("Versicolor")
+    st.text("Versicolor")
     st.write("Versicolor")
     st.markdown("Versicolor")
   #  st.image("")
