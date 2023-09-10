@@ -58,3 +58,23 @@ dt3 = dt['sepal.length'].sum()
 dt4 = dt['sepal.width'].sum()
 dx = [dt1, dt2, dt3, dt4]
 dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])
+
+if st.button("show Chart"):
+    st.bar_chart(dx2)
+    st.button("don't show Chart")
+else:
+    st.button("don't show Chart")
+
+html_2 = """
+<div style="background-color:#335EFF;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")
+
+pt_len = st.slider("กรุณาเลือกข้อมูล petal.length")
+pt_wd = st.slider("กรุณาเลือกข้อมูล petal.width")
+
+sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.length")
+sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
