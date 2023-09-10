@@ -46,7 +46,7 @@ with col3v:
 st.header('My header')
 st.subheader('My sub')
 
-#import pandas as pd
+import pandas as pd
 dt=pd.read_csv('./data/iris.csv')
 st.write(dt.head(10))
 
