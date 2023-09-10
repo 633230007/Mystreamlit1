@@ -32,14 +32,14 @@ col1v, col2v,col3v = st.columns(3)
 #col2.write("This is column 2")
 
 with col1v:
-    st.header("TKKiT0007")
+    st.header("flower01")
     st.image("./pic/iris1.jpg")
 
 with col2v:
-    st.header("TKKiT633230007")
+    st.header("flower02")
     st.image("./pic/iris2.jpg")
 with col3v:
-    st.header("TKKiT633230007")
+    st.header("flower03")
     st.image("./pic/iris3.jpg")
   #  st.image("")
 
