@@ -15,8 +15,8 @@ with col1:
 with col2:
     st.header("TKKiT633230007")
     st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
-    st.text("Versicolor")
-    st.write("Versicolor")
+    st.text("เทคโนโลยีสารสนเทศ")
+    st.write("หมู่เรียน 24.2")
     st.markdown("Versicolor")
 
 html_1 = """
