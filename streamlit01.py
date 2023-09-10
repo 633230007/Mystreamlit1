@@ -32,7 +32,7 @@ col1v, col2v,col3v = st.columns(3)
 #col2.write("This is column 2")
 
 with col1v:
-    st.header("<center>flower01</center>")
+    st.header("flower01")
     st.image("./pic/iris1.jpg")
 
 with col2v:
