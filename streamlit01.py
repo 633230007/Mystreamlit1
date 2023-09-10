@@ -12,7 +12,7 @@ with col1:
     st.header("TKKiT0007")
     st.image("./pic/iris1.jpg")
 
-#with col2:
+with col2:
     st.header("TKKiT633230007")
     st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
     st.text("Versicolor")
@@ -27,6 +27,20 @@ html_1 = """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
+col1v, col2v,col3v = st.columns(3)
+#col1.write("This is column 1")
+#col2.write("This is column 2")
+
+with col1v:
+    st.header("TKKiT0007")
+    st.image("./pic/iris1.jpg")
+
+with col2v:
+    st.header("TKKiT633230007")
+    st.image("./pic/iris2.jpg")
+with col3v:
+    st.header("TKKiT633230007")
+    st.image("./pic/iris3.jpg")
   #  st.image("")
 
 st.header('My header')
