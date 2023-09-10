@@ -17,7 +17,7 @@ with col2:
     st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
     st.text("เทคโนโลยีสารสนเทศ")
     st.write("หมู่เรียน 24.2")
-    st.markdown("Versicolor")
+    st.markdown("มหาวิทยาลัยราชภัฏนครปฐม")
 
 html_1 = """
 <div style="background-color:#335EFF;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
