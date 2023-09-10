@@ -101,7 +101,7 @@ if st.button("ทำนายผล"):
    elif out[0]=="Verginiga":
     
        st.image("./pic/iris2.jpg")
-   else out[0]=="Setosa":
+   elif out[0]=="Setosa":
     
        st.image("./pic/iris3.jpg")
    st.button("ไม่ทำนาย")
