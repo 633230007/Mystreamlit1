@@ -16,7 +16,7 @@ with col1:
     st.image("./pic/iris1.jpg")
 
 with col2:
-    st.header("TKKiT633230007")
+    st.header("633230007")
     st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
     st.text("เทคโนโลยีสารสนเทศ")
     st.write("หมู่เรียน 24.2")
